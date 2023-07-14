@@ -32,10 +32,15 @@ h2 {
     background-color: #E53935;
 }
 
+.flex-element:nth-child(1) {
+    
+}
 .flex-element:nth-child(2) {
     background-color: #8E24AA;
+    
 }
 
 .flex-element:nth-child(3) {
+    order: -1;
     background-color: #3F51B5;
 }
